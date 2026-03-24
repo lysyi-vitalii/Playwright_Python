@@ -1,0 +1,31 @@
+============To research========
+
+tests runs in:
+- Headless mode
+- Headed mode
+
+========Hot keys & tricks=========
+Local history for the Strings, to check what was changed
+
+====================Module 1==============
+Selectors and elements:
+- accessibility dom
+- css selector
+- xpath
+
+[id*='third-block'] - пошук з *
+Найкращий варіант пошуку елементів - той, який ми можемо контролювати. data-test-id - ідеальний варіант.
+
+xpath //*[@id="search"]
+css input[id="search"]
+css input#search
+
+.common-btn-primary
+.common-btn-primary[href="projects/new"]
+
+Читабельність важливіша за компактність.
+[href*="projects/new"] ------ * - пошук по вмісту атрибуту
+
+#content-desktop #user_email - пробіл між атрибукати означає "шукай на будь-якому рівні вкладеності"
+
+-------Accessibility dom------
